@@ -8,16 +8,17 @@
 }
 .container{
     display: flex;
+    justify-content: space-between;
 }
 /*通常*/
 .panel{
     flex:auto;
     height: 100px;
-    width: 100px;
-    margin: 20px;
+    width: auto;
+    margin: 10px;
     padding: 20px;
     border-radius: 5%;
-    font-size: 3em;
+    font-size: 5vmin;
     /*ハイパーテキスト表示を消す*/
     text-decoration: none;
     text-align: center;
@@ -28,13 +29,13 @@
 /*ボタン上にマウスがある時*/
 .panel:hover{
     height: 100px;
-    width: 100px;
-    margin: 20px;
+    width: auto;
+    margin: 10px;
     padding: 20px;
     border-radius: 5%;
     /*ハイパーテキスト表示を消す*/
     text-decoration: none;
-    font-size: 3em;
+    font-size: 5vmin;
     text-align: center;
     line-height: 100px;
     color: white;
@@ -43,13 +44,13 @@
 /*ボタンを押したとき*/
 .panel:active{
     height: 100px;
-    width: 100px;
-    margin: 20px;
+    width: auto;
+    margin: 10px;
     padding: 20px;
     border-radius: 5%;
     /*ハイパーテキスト表示を消す*/
     text-decoration: none;
-    font-size: 3em;
+    font-size: 5vmin;
     text-align: center;
     line-height: 100px;
     color: white;
@@ -60,4 +61,4 @@
     width: max-content;
     font-size: 5em;
     font-family: sans-serif;
-}   
+}

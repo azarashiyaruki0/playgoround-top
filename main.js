@@ -8,12 +8,42 @@ document.addEventListener('mouseover', (event) => {
 
 }, false);
 
-function func(){
+function func1(){
 
     var target = document.getElementById('voice');
 
     setTimeout(function () {
-        target.innerText = 'それにしちゃうの？';
+        target.innerText = 'なんでも～';
+    }, 100);
+
+}
+
+function func2(){
+
+    var target = document.getElementById('voice');
+
+    setTimeout(function () {
+        target.innerText = 'PC～';
+    }, 100);
+
+}
+
+function func3(){
+
+    var target = document.getElementById('voice');
+
+    setTimeout(function () {
+        target.innerText = 'PC～';
+    }, 100);
+
+}
+
+function func4(){
+
+    var target = document.getElementById('voice');
+
+    setTimeout(function () {
+        target.innerText = 'スマホタブレット～';
     }, 100);
 
 }

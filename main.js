@@ -49,7 +49,7 @@ function func4(){
 
 }
 
-function func4(){
+function func5(){
 
     var target = document.getElementById('voice');
 

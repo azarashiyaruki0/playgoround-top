@@ -1,3 +1,4 @@
+
 console.log('hello world')
 
 document.addEventListener('mouseover', (event) => {
@@ -44,6 +45,16 @@ function func4(){
 
     setTimeout(function () {
         target.innerText = 'スマホタブレット～';
+    }, 100);
+
+}
+
+function func4(){
+
+    var target = document.getElementById('voice');
+
+    setTimeout(function () {
+        target.innerText = '画面だけ～';
     }, 100);
 
 }

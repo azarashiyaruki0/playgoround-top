@@ -1,0 +1,97 @@
+body{
+    text-align: center;
+}
+.container{
+    position: relative;
+}
+
+#image{
+    /*  container */
+    position: absolute; top:0px; left:500px;
+}
+
+.gameLayer{
+    position: relative;
+}
+
+#viewLayer{
+    display: flex;
+    position: relative;
+	padding : 0px
+}
+#viewLayer canvas {
+    /*  viewLayer */
+    position: absolute; top:300px; left:500px;
+    border: solid 2px #000000;
+}
+
+#layer1 {
+	background-color: #000000;
+}
+
+#controllLayer{
+    position: relative;
+}
+
+#buttonMoveFrame{
+    position: absolute;top:400px; left:150px;
+    height: 300px;
+    width: 300px;
+    border: solid 2px #000000;
+}
+
+#controller_button1{
+    /*  vcontrollLayer */
+    position: absolute;top:20px; left:110px;
+    border: solid 2px #000000;
+    background-color: gray;
+}
+#controller_button2{
+    /*  vcontrollLayer */
+    position: absolute;top:200px; left:110px;
+    border: solid 2px #000000;
+    background-color: gray;
+}
+#controller_button3{
+    /*  vcontrollLayer */
+    position: absolute;top:110px; left:10px;
+    border: solid 2px #000000;
+    background-color: gray;
+}
+#controller_button4{
+    /*  vcontrollLayer */
+    position: absolute;top:110px; left:210px;
+    border: solid 2px #000000;
+    background-color: gray;
+}
+
+#buttonActionFrame{
+    position: absolute;top:400px; left:1350px;
+    height: 300px;
+    width: 300px;
+    border: solid 2px #000000;
+}
+#controller_buttonA{
+    /*  vcontrollLayer */
+    position: absolute;top:20px; left:110px;
+    border: solid 2px #000000;
+    background-color: red;
+}
+#controller_buttonB{
+    /*  vcontrollLayer */
+    position: absolute;top:200px; left:110px;
+    border: solid 2px #000000;
+    background-color: blue;
+}
+#controller_buttonC{
+    /*  vcontrollLayer */
+    position: absolute;top:110px; left:10px;
+    border: solid 2px #000000;
+    background-color: chartreuse;
+}
+#controller_buttonD{
+    /*  vcontrollLayer */
+    position: absolute;top:110px; left:210px;
+    border: solid 2px #000000;
+    background-color: yellow;
+}
